@@ -6,8 +6,8 @@
 
 .color-item_active,
 .color-item:hover {
-  outline: 3px solid;
-  outline-offset: 5px;
+  outline: 2px solid;
+  outline-offset: 4px;
 }
 
 .color-item:nth-child(1) {
