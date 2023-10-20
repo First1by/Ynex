@@ -1,0 +1,37 @@
+.icon-filter-sidebar {
+  display: none;
+}
+
+.filter-container {
+  left: -100%;
+  top: 50px;
+  z-index: 1;
+  transition: all 0.5s;
+}
+
+.filter-container_active {
+  left: 0;
+}
+
+.icon-close {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 16px;
+  height: 16px;
+  padding: 4px;
+  background: url(../icons/close.png) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .icon-filter-sidebar {
+    display: block;
+  }
+
+  .icon-close {
+    display: block;
+  }
+}
